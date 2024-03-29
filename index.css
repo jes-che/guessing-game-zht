@@ -14,18 +14,18 @@ body {
 }
 
 #message {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 25px;
     text-shadow: 1px 1px 1px magenta;
 }
 
 #attempt {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 50px;
 }
 
 #restart {
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: 1px solid whitesmoke;
     padding: 15px;
     border-radius: 50px;
