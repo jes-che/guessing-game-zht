@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #28282B;
+    font-family: "Play", sans-serif;
+    color: whitesmoke;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#message {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px magenta;
+}
+
+#attempt {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+#restart {
+    font-size: 1rem;
+    border: 1px solid whitesmoke;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: whitesmoke 2px 2px;
+    cursor: pointer;
+}
+
+#restart:hover {
+    color: magenta;
+}
+
+/* RESPONSIVE */
+/* MOBILE SIZE */
+@media only screen and (max-width: 480px) {
+    #message {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    #attempt {
+        font-size: 1.25rem;
+        margin-bottom: 30px;
+    }
+
+    #restart {
+        font-size: 0.75rem;
+    }
+}
