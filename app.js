@@ -30,7 +30,7 @@ if (guess === "q" || guess === null) {
     });
 } else {
     document.getElementById("message").innerHTML = "哎呦，不錯哦！";
-    document.getElementById("attempt").innerHTML = `您猜了 ${attempts} 次`;
+    document.getElementById("attempt").innerHTML = `你猜了 ${attempts} 次`;
     document.getElementById("restart").addEventListener("click", function() {
         window.location.reload();
         return false;
